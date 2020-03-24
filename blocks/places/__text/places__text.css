@@ -1,0 +1,21 @@
+.places__text {
+    padding-left: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+    .places__text {
+        padding-left: 32px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .places__text {
+        padding-left: 28px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__text {
+        padding: 24px 16px 0;
+    }
+}

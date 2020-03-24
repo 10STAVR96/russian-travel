@@ -1,0 +1,22 @@
+.places__heading {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .places__heading {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .places__heading {
+        padding-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .places__heading {
+        padding-left: 16px;
+    }
+}

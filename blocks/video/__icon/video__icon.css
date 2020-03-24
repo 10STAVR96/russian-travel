@@ -1,0 +1,20 @@
+.video__icon {
+    width: 41px;
+    height: 41px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+    .video__icon {
+        padding-left: 24px;
+        padding-top: 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__icon {
+        padding-left: 16px;
+        padding-top: 16px;
+    }
+}

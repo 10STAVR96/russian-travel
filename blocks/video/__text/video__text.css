@@ -1,0 +1,24 @@
+.video__text {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1279px) {
+    .video__text {
+        padding-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .video__text {
+        padding-left: 24px;
+        padding-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .video__text {
+        padding-left: 16px;
+        padding-bottom: 16px;
+    }
+}

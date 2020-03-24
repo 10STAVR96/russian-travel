@@ -1,0 +1,9 @@
+.places__main-content {
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .places__main-content {
+        flex-direction: column;
+    }
+}

@@ -1,7 +1,6 @@
 .video__item {
     max-width: 583px;
     height: 323px;
-    background-color: black;
     border-radius: 5px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -9,7 +8,8 @@
 }
 
 .video__item:hover .video__item-bg {
-    opacity: 0.5;
+    transition: opacity .5s linear;
+    opacity: .7;
 }
 
 @media screen and (max-width: 1279px) {

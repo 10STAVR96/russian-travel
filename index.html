@@ -39,11 +39,11 @@
           их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные 
           вашего отпуска.</p>
         <ul class="intro__list">
-          <li class="intro__list-text">Часовых поясов <span class="intro__list-text intro__list-text_weight_normal">11</span></li>
-          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_weight_normal">12</span></li>
-          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__list-text intro__list-text_weight_normal">16</span></li>
-          <li class="intro__list-text">Природных заповедников <span class="intro__list-text intro__list-text_weight_normal">102</span></li>
-          <li class="intro__list-text">Аэропортов <span class="intro__list-text intro__list-text_weight_normal">241</span></li>
+          <li class="intro__list-text">Часовых поясов <span class="intro__font-weight">11</span></li>
+          <li class="intro__list-text">Объектов природного наследия ЮНЕСКО <span class="intro__font-weight">12</span></li>
+          <li class="intro__list-text">Объектов культурного наследия ЮНЕСКО <span class="intro__font-weight">16</span></li>
+          <li class="intro__list-text">Природных заповедников <span class="intro__font-weight">102</span></li>
+          <li class="intro__list-text">Аэропортов <span class="intro__font-weight">241</span></li>
         </ul>
       </section> 
 
@@ -174,7 +174,8 @@
         <div class="video__container">
 
           <div class="video__item">
-            <img class="video__item-bg" src="./images/__item-bg1.png" alt="Изображение полуострова с высокой горой">
+            <img class="video__item-image" src="./images/__item-bg1.png" alt="Изображение полуострова с высокой горой">
+            <div class="video__item-bg"></div>
             <a class="video__link" href="https://vimeo.com/81106671">
               <img class="video__icon" src="./images/__icon_play.svg" alt="иконка запуска видео">
               <div class="video__text">  <!-- div для авто выравнивания высоты текста на более мелких экранах с помощью display: flex и space-between для тега <a>... в html5 это возможно-->
@@ -186,7 +187,8 @@
           </div>
 
           <div class="video__item">
-            <img class="video__item-bg" src="./images/__item-bg2.png" alt="Изображение научной обсерватории на фоне звёздного неба">
+            <img class="video__item-image" src="./images/__item-bg2.png" alt="Изображение научной обсерватории на фоне звёздного неба">
+            <div class="video__item-bg"></div>
             <a class="video__link" href="https://vimeo.com/290675450">
               <img class="video__icon" src="./images/__icon_play.svg" alt="иконка запуска видео">
               <div class="video__text">
@@ -233,7 +235,8 @@
 
       <section class="cover">
         <img class="cover__image" src="./images/__cover.png" alt="Задний фон с изображением железной дороги">
-        <a class="cover__link" href="#">
+        <div class="cover__bg-container"></div> 
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2> <!--без неразрывного пробела не переносится на маленьких разрешениях-->
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на электричках.</p>
         </a>

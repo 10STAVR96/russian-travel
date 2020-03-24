@@ -1,42 +1,21 @@
 @import url(./__image/cover__image.css);
+@import url(./__bg-container/cover__bg-container.css);
 @import url(./__link/cover__link.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
 .cover {
-    height: 594px;
     margin: 102px auto 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
 
-.cover:hover .cover__image {
-    opacity: 0.3;
+.cover:hover .cover__bg-container {
+    transition: opacity .5s linear;
+    opacity: .7;
 }
 
-@media screen and (max-width: 1279px) {
-    .cover {
-        height: 562px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .cover {
-        height: 500px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .cover {
-        height: 272px;
-        max-width: 375px;
-    }
-}
-
-@media screen and (max-width: 374px) {
-    .cover {
-        max-height: 216px;
-        max-width: 100%;
-    }
-}
+/* на мелких разрешениях начиная с 768 на картинке видно железнодорожника, картинка скачивалась с 1440 из-за качества,
+   но там по видимому картинка скрыта через свойство cover и поэтому скачивается обрезанной, поэтому она немного не соответствует
+   на разрешении 768, скачать полную картинку в хорошем качестве неоткуда*/

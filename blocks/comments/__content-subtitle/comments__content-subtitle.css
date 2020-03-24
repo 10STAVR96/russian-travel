@@ -13,3 +13,17 @@
         padding-top: 24px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .comments__content-subtitle {
+        font-size: 16px;
+        line-height: 23px;
+        max-width: 343px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .comments__content-subtitle {
+        max-width: 343px;
+    }
+}
